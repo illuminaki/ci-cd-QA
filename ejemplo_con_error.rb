@@ -3,8 +3,8 @@
 
 # Este archivo tiene errores de estilo intencionales para demostrar el linter
 
-def suma_con_errores(a, b) # Falta espacio después de las comas
-  resultado = a + b # Falta espacios alrededor de los operadores
+def suma_con_errores(a,b) # Falta espacio después de las comas
+  resultado = a+b # Falta espacios alrededor de los operadores
   puts "El resultado es: #{resultado}"
   resultado # Return innecesario
 end
